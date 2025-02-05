@@ -8,7 +8,7 @@ app = FastAPI()
 
 class InfoRead(BaseModel):
     email: str
-    current_date: datetime
+    current_datetime: datetime
     github_url: str
 
 
@@ -16,6 +16,6 @@ class InfoRead(BaseModel):
 def get_my_info():
     return InfoRead(
         email="olaidesamson90@gmail.com",
-        current_date=datetime.now(timezone.utc),
+        current_datetime=datetime.now(timezone.utc),
         github_url="https://github.com/SOO2023/HNG0",
     )
