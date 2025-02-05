@@ -10,7 +10,7 @@ This is a simple public API developed for the HNG12 internship Stage 0 backend t
 ## API Documentation  
 
 ### Endpoint  
-**GET** `<your-deployed-api-url>`  
+**GET** `https://hng0-nvg7.onrender.com`
 
 ### Response Format  
 The API returns a JSON response with the following structure:  
