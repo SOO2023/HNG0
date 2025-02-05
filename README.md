@@ -40,9 +40,9 @@ Clone the Repository
 Clone your FastAPI backend project repository from GitHub or any other version control system.
 
 ```bash
-git clone https://github.com/SOO2023/repo.git
+git clone https://github.com/SOO2023/HNG0.git
 
-cd HNG_0
+cd HNG0
 ```
 
 ### 2: Create and Activate a Virtual Environment

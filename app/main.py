@@ -12,10 +12,10 @@ class InfoRead(BaseModel):
     github_url: str
 
 
-@app.get("/", response_model=InfoRead, tags=["Info"])
+@app.get("/", response_model=InfoRead, tags=["Info"], status_code=200)
 def get_my_info():
     return InfoRead(
         email="olaidesamson90@gmail.com",
         date=datetime.now(timezone.utc),
-        github_url="<https://githug.com/SOO2023/>",
+        github_url="https://github.com/SOO2023/HNG0",
     )
